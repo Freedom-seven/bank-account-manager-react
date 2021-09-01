@@ -1,8 +1,14 @@
 # How we worked on the Bank Account Manager App.
- 	This project is about how to create, retrive, edit and delete bank accounts. First we frok and clone our project from github with git on to our local repo and run yarn install to add the dependencies then we opened the code in our text editor. 
-	Secondly, we created a new brunch for our project and run yarn add react redux, bulma and commited all the necessary changes. Then we yarn start the project to see if its works as expected. We created an actions, Reducer and store folders in our src and created the needed files inside the folders (actionAccount.js, accountReducers.js and store.js). 
 
-We first focus on the create and retrive part to display the items. In doing that we worked with the store.js and actionReducer.js then the index.js to wrap Provider with store as props around the rendered component. We imported connect from react readux and added mapDispatchToProps and mapStateToProps to were it needed to connect the component to the redux.
+ This project is about how to create, retrive, edit and delete bank accounts. First we frok and clone our 
+project from github with git on to our local repo and run yarn install to add the dependencies then we opened the code in our text editor. 
+Secondly, we created a new brunch for our project and run yarn add react redux, bulma and commited all the necessary changes.
+Then we yarn start the project to see if its works as expected. We created an actions, Reducer and store folders in our src and 
+created the needed files inside the folders (actionAccount.js, accountReducers.js and store.js). 
+
+We first focus on the create and retrive part to display the items. In doing that we worked with the store.js and actionReducer.js
+then the index.js to wrap Provider with store as props around the rendered component. We imported connect from react readux and added
+mapDispatchToProps and mapStateToProps to were it needed to connect the component to the redux.
 Then we wrote the actions for the create and retrive and the edit and delete in actionReducer.js and actionAccount.js to get them to work.
 
 
